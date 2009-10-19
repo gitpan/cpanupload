@@ -1,0 +1,32 @@
+cpanupload - upload one or more files to CPAN, using PAUSE
+==========================================================
+
+The original cpan-upload script was written by Neil Bowers and resides on cpan.
+This distro is mostly to allow you to install this using command line cpan.
+
+
+
+
+INSTALLATION
+
+perl Makefile.PL
+make install
+
+DEPENDENCIES
+
+   AppConfig::Std
+   File::Basename
+   HTTP::Request::Common
+   HTTP::Status
+   LWP::UserAgent
+   Net::FTP
+   Term::ReadKey
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2009 by Leo Charre leocharre at cpan dot org
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
+   
